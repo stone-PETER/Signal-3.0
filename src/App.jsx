@@ -1,6 +1,15 @@
+import Hero from "./pages/Hero/Hero";
+import Navbar from "./pages/Navbar/Navbar";
+import Contact from "./pages/ContactUs/ContactUs";
+import Footer from "./pages/Footer/Footer";
 const App = () => {
   return (
-    <div className="text-red-800 text-4xl">App</div>
-  )
-}
-export default App
+    <>
+      <Navbar />
+      <Hero />
+      <Contact />
+      {/* <Footer/> */}
+    </>
+  );
+};
+export default App;
