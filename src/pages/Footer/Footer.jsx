@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./Footer.css";
+// import "./Footer.css";
 
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -14,10 +14,10 @@ const Footer = () => {
       <div className="feet">
         <div className="map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.5500639865463!2d76.6193309!3d10.053936999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07e6154a2133e5%3A0x2c26b2d532bb30ea!2sMar%20Athanasius%20College%20of%20Engineering%20-%20Kothamangalam!5e0!3m2!1sen!2sin!4v1718273487535!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d983.2716524948816!2d76.82498361648761!3d9.673640919898247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07b56200e0d90f%3A0x9924d34156f3bc17!2sCollege%20of%20Engineering%20Poonjar%20CEP!5e0!3m2!1sen!2sin!4v1735282673114!5m2!1sen!2sin"
             width="600"
             height="450"
-            style={{ border: 0 }}
+            style="border:0;"
             allowfullscreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -34,22 +34,38 @@ const Footer = () => {
                   </a>
                 </li> */}
                 <li>
-                  <a className="link-item" href="https://www.ieee.org/" target="_blank">
+                  <a
+                    className="link-item"
+                    href="https://www.ieee.org/"
+                    target="_blank"
+                  >
                     IEEE
                   </a>
                 </li>
                 <li>
-                  <a className="link-item" href="https://ieeekerala.org/" target="_blank">
+                  <a
+                    className="link-item"
+                    href="https://ieeekerala.org/"
+                    target="_blank"
+                  >
                     IEEE Kerala Section
                   </a>
                 </li>
                 <li>
-                  <a className="link-item" href="https://ie-pels.ieeemace.org/" target="_blank">
+                  <a
+                    className="link-item"
+                    href="https://ie-pels.ieeemace.org/"
+                    target="_blank"
+                  >
                     IEEE IE/PELS Jt. Chapter MACE
                   </a>
                 </li>
                 <li>
-                  <a className="link-item" href="https://ias.ieeemace.org/" target="_blank">
+                  <a
+                    className="link-item"
+                    href="https://ias.ieeemace.org/"
+                    target="_blank"
+                  >
                     IEEE IAS SBC MACE
                   </a>
                 </li>

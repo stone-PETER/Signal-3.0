@@ -3,7 +3,7 @@ import WaveAnimation from "./WaveAnimation";
 const Hero = () => {
   return (
     <section className="bg-[#0a0a1a] text-white">
-      <div className="relative min-h-screen pt-[10dvh] overflow-hidden">
+      <div className="relative min-h-screen  overflow-hidden">{/*pt-[10dvh]*/}
         <canvas
           id="waveCanvas"
           className="absolute inset-0 w-full h-full opacity-80 z-0"
@@ -54,7 +54,7 @@ const Hero = () => {
               </p>
 
               <div className="flex space-x-4 pt-6">
-                <button className="group relative px-8 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-green-600 hover:from-cyan-600 hover:to-purple-700 transition-all duration-300 flex items-center">
+                <button className="group relative px-8 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-green-600 hover:from-cyan-600 hover:to-green-700 transition-all duration-300 flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
