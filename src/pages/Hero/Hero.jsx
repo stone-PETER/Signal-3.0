@@ -32,9 +32,9 @@ const Hero = () => {
                   <line x1="6" y1="6" x2="6.01" y2="6"></line>
                   <line x1="6" y1="18" x2="6.01" y2="18"></line>
                 </svg> */}
-                <img className="h-[80px]" src="sps kc png.png"></img>
+                {/* <img className="h-[80px]" src="sps kc png.png"></img> */}
                 <div>
-                  <h2 className="text-xl font-mono text-cyan-300 tracking-widest uppercase">
+                  <h2 className="md:text-xl font-mono text-cyan-300 tracking-widest uppercase text-base">
                     SPS Kerala Chapter Presents
                   </h2>
                 </div>
@@ -47,7 +47,7 @@ const Hero = () => {
                 SIGNAL 3.0
               </h1> */}
 
-              <p className="text-xl text-gray-300 leading-relaxed max-w-xl">
+              <p className="text-xl text-gray-300 leading-relaxed max-w-xl text-justify">
               SIGNAL 3.0 , the flagship event of the IEEE SPS Kerala Chapter, is back with greater energy and excitement! Scheduled to take place on January 24, 25, and 26, 2024, this third edition promises to be a remarkable blend of technology, inspiration, and collaboration.
               </p>
 

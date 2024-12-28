@@ -10,7 +10,7 @@ export default function Footer() {
           <li>
             <Typography
               as="a"
-              href="#"
+              href="#about"
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
@@ -20,21 +20,20 @@ export default function Footer() {
           <li>
             <Typography
               as="a"
-              href="#"
+              href="#registration"
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-            >
-              License
+            >Registration
             </Typography>
           </li>
           <li>
             <Typography
               as="a"
-              href="#"
+              href="sps.ieeekerala.org"
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
-              Contribute
+              SPS Kerala Chapter
             </Typography>
           </li>
           <li>
@@ -51,7 +50,7 @@ export default function Footer() {
       </div>
       <hr className="my-8 border-blue-gray-50" />
       <Typography color="blue-gray" className="text-center font-normal">
-        &copy; 2023 Material Tailwind
+        &copy; 2024 Signal Web Team
       </Typography>
     </footer>
   );
