@@ -3,7 +3,7 @@ import "./register.css"
 export const Registration=(props)=>
 {
     return(
-    <div id="registration">
+    <div id="registration" className="bg-indigo-950">
         <div className="col-md-10 col-md-offset-1 section-title text-center">
           <h2 className="title">Early Bird Registration</h2>
         </div>

@@ -7,20 +7,22 @@ import Navbar from "./pages/Navbar/Navbar";
 import { Registration } from "./pages/Registration/registration";
 import Speaker from "./pages/Speakers/Speakers";
 import Workshops from "./pages/Workshops/Workshops";
-// import Footer from "./pages/Footer/Footer"; // Uncomment if needed
+import Footer from "./pages/Footer/Footer"; // Uncomment if needed
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Hero />
+      <AboutUs />
       <Registration />
-      <Speaker />
-      <Workshops />
+      {/* <Speaker />
+      <Workshops /> */}
       <Contact />
-      {/* <Footer /> */}
+      
       <div className="text-red-800 text-4xl"></div>
-      <AboutUs />  {/* Add the AboutUs component here */}
+        {/* Add the AboutUs component here */}
+      <Footer />
     </>
   );
 };

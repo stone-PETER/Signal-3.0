@@ -3,11 +3,14 @@ import "./AboutUs.css"; // Import the CSS file
 
 const AboutUs = () => {
   return (
-    <div className="about-us-container">
+    <div className="about-us-container bg-indigo-950" id="about">
+    {/* <div className="green-wave-background inverted"> */}
+        <div className=" funded-by-text">About Us</div>
+      {/* </div> */}
       <div className="about-us-content-signal">
         <div className="about-us-logo-signal">
           {/* Replace the path with your logo file */}
-          <img src="src\assets\IEEE_Students_logo.png" alt="Logo" />
+          <img src="Signal.png" alt="Logo" />
         </div>
         <div className="about-us-text-signal">
           <h1>SIGNAL 3.0</h1>
@@ -22,7 +25,7 @@ This exciting three-day extravaganza features a lineup of captivating speakers, 
       <div className="about-us-content-spskerala">
         <div className="about-us-logo-spskerala">
           {/* Replace the path with your logo file */}
-          <img src="src\assets\IEEE_Students_logo.png" alt="Logo" />
+          <img src="sps kc png.png" alt="Logo" />
         </div>
         <div className="about-us-text-spskerala">
           <h1>SPS KERALA CHAPTER</h1>
@@ -36,7 +39,7 @@ This exciting three-day extravaganza features a lineup of captivating speakers, 
       <div className="about-us-content-cepoonjar">
         <div className="about-us-logo-cepoonjar">
           {/* Replace the path with your logo file */}
-          <img src="src\assets\IEEE_Students_logo.png" alt="Logo" />
+          <img src="Poonjar.png" alt="Logo" />
         </div>
         <div className="about-us-text-cepoonjar">
           <h1>COLLEGE OF ENGINEERING POONJAR</h1>
@@ -47,25 +50,20 @@ This exciting three-day extravaganza features a lineup of captivating speakers, 
       </div>
 
       {/* Green Wave Background with Image */}
-      <div className="green-wave-background inverted">
-        {/* "Co-Sponsored By" text on top of the green wave */}
+      {/* <div className="green-wave-background inverted">
         <div className="funded-by-text">Co-Sponsored By</div>
       </div>
 
-      {/* White rectangular column to hold logos */}
       <div className="logo-container">
         <img src="src\assets\cas.png" alt="Logo 1" />
         <img src="src\assets\ias.jpg" alt="Logo 2" />
         <img src="src\assets\IEEE_Students_logo.png" alt="Logo 3" />
       </div>
 
-      {/* Another Green Wave Background with Image */}
       <div className="green-wave-background2">
-        {/* "Funded By" text on top of the green wave */}
         <div className="funded-by-text">Funded By</div>
       </div>
 
-      {/* White rectangular column to hold logos */}
       <div className="logo-container">
         <img src="src\assets\mlep.jpg" alt="Logo 1" />
         <img src="src\assets\ncs.jpg" alt="Logo 2" />
@@ -73,8 +71,7 @@ This exciting three-day extravaganza features a lineup of captivating speakers, 
       </div>
 
       <div className="green-wave-background2">
-        {/* "Funded By" text on top of the green wave */}
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -32,7 +32,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#About"
+              href="#about"
               onClick={() => {
                 setActive(!active);
               }}
@@ -42,15 +42,15 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#Event"
+              href="#registration"
               onClick={() => {
                 setActive(!active);
               }}
             >
-              EVENTS
+              REGISTRATION
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="#Gallery"
               onClick={() => {
@@ -69,7 +69,7 @@ export default function Navbar() {
             >
               CHAPTERS
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="#contact"

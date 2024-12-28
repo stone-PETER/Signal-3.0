@@ -11,7 +11,7 @@ body{
   position: relative;
   color: white;
   padding: 20px;
-  background-color: black; /* Dark background for contrast */
+  /* background-color: black;  */
   min-height: 100vh; /* Ensure it takes the full height */
 }
 
@@ -167,19 +167,23 @@ body{
 
 /* Funded By Text Styling */
 .funded-by-text {
-  position: absolute;
+  position: relative;
+  text-align: center;
   top: 25px; /* Adjust the distance from the top of the container */
   left: 50%;
   transform: translateX(-50%);
   color: white;
-  font-size: 3.5rem; /* Adjust the size of the text */
+  font-size: 3.2rem; /* Adjust the size of the text */
+  text-decoration: underline;
   font-weight: bold;
   overflow: hidden; /* Hide overflowing text outside the animation area */
   z-index: 10; /* Ensure the text appears above the wave */
   padding: 0 10px; /* Padding for the text */
-  background: linear-gradient(90deg, rgba(247, 247, 247, 0.348) 0%, rgb(255, 255, 255) 100%); /* Gradient from transparent to white */
+  padding-bottom: 20px;
+  /* background: linear-gradient(90deg, rgba(247, 247, 247, 0.348) 0%, rgb(255, 255, 255) 100%); */
+  background-color: white;
   background-size: 200% 100%; /* Makes the gradient large enough to cover the text */
-  animation: fadeRightEffect 1s infinite linear; /* Apply the fade effect from left to right */
+  /* animation: fadeRightEffect 1s infinite linear;  */
   -webkit-background-clip: text; /* Clip the background to the text */
   color: transparent; /* Make the text itself transparent */
 }

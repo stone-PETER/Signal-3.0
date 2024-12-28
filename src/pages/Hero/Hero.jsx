@@ -48,9 +48,7 @@ const Hero = () => {
               </h1> */}
 
               <p className="text-xl text-gray-300 leading-relaxed max-w-xl">
-                Cutting-edge data recovery that transforms digital remnants into
-                living memories. We extract data from technologies others
-                consider extinct.
+              SIGNAL 3.0 , the flagship event of the IEEE SPS Kerala Chapter, is back with greater energy and excitement! Scheduled to take place on January 24, 25, and 26, 2024, this third edition promises to be a remarkable blend of technology, inspiration, and collaboration.
               </p>
 
               <div className="flex space-x-4 pt-6">
