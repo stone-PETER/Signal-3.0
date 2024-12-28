@@ -80,10 +80,7 @@
 /* Media query for responsiveness */
 @media screen and (max-width: 720px) {
     .speakers-container {
-        flex-direction: column; /* Stacks the cards downward */
-    }
-
-    .speakers-card {
-        width: 100%; /* Full width for smaller screens */
+        flex-direction: column;
+        align-content: center; 
     }
 }
