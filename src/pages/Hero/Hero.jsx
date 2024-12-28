@@ -3,7 +3,8 @@ import WaveAnimation from "./WaveAnimation";
 const Hero = () => {
   return (
     <section className="bg-[#0a0a1a] text-white">
-      <div className="relative min-h-screen  overflow-hidden">{/*pt-[10dvh]*/}
+      <div className="relative min-h-screen  overflow-hidden">
+        {/*pt-[10dvh]*/}
         <canvas
           id="waveCanvas"
           className="absolute inset-0 w-full h-full opacity-80 z-0"
@@ -34,7 +35,7 @@ const Hero = () => {
                 </svg> */}
                 {/* <img className="h-[80px]" src="sps kc png.png"></img> */}
                 <div>
-                  <h2 className="md:text-xl font-mono text-cyan-300 tracking-widest uppercase text-base">
+                  <h2 className="md:text-xl md:text-left text-center font-mono text-cyan-300 tracking-widest uppercase text-base">
                     SPS Kerala Chapter Presents
                   </h2>
                 </div>
@@ -48,10 +49,14 @@ const Hero = () => {
               </h1> */}
 
               <p className="text-xl text-gray-300 leading-relaxed max-w-xl text-justify">
-              SIGNAL 3.0 , the flagship event of the IEEE SPS Kerala Chapter, is back with greater energy and excitement! Scheduled to take place on January 24, 25, and 26, 2024, this third edition promises to be a remarkable blend of technology, inspiration, and collaboration.
+                SIGNAL 3.0 , the flagship event of the IEEE SPS Kerala Chapter,
+                is back with greater energy and excitement! Scheduled to take
+                place on January 24, 25, and 26, 2024, this third edition
+                promises to be a remarkable blend of technology, inspiration,
+                and collaboration.
               </p>
 
-              <div className="flex space-x-4 pt-6">
+              <div className="flex align-center md:align-left space-x-4 pt-6 ">
                 <button className="group relative px-8 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-green-600 hover:from-cyan-600 hover:to-green-700 transition-all duration-300 flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

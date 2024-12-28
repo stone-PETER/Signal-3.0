@@ -59,7 +59,7 @@ body{
   font-size: 1rem;
   max-width: 700px; /* Max width for better readability */
   margin: 0 auto;
-  text-align: left; /* Align text to the left */
+  text-align: justify; /* Align text to the left */
 }
 
 /* about sps kerala*/
@@ -106,7 +106,7 @@ body{
   font-size: 1rem;
   max-width: 700px; /* Max width for better readability */
   margin: 0 auto;
-  text-align: left; /* Align text to the left */
+  text-align: justify; /* Align text to the left */
 }
 
 /*about cepoonjar*/
@@ -153,7 +153,7 @@ body{
   font-size: 1rem;
   max-width: 700px; /* Max width for better readability */
   margin: 0 auto;
-  text-align: left; /* Align text to the left */
+  text-align: justify; /* Align text to the left */
 }
 
 /* Green wave background replaced by an image */
@@ -294,7 +294,7 @@ body{
   .about-us-content-cepoonjar {
     flex-direction: column; /* Stack logo and text vertically */
     padding: 5px;
-    width: 100%;
+    width: 90%;
   }
 
   .about-us-logo-signal img,
