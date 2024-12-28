@@ -2,11 +2,11 @@ import "./AboutUs.css"; // Import the CSS file
 
 const AboutUs = () => {
   return (
-    <div className="about-us-container bg-indigo-950" id="about">
+    <div className="about-us-container" id="about">
     {/* <div className="green-wave-background inverted"> */}
-        <div className=" funded-by-text">About Us</div>
+        <h1 className=" section-heading">About Us</h1>
       {/* </div> */}
-      <div className="about-us-content-signal">
+      <div className="about-us-content">
         <div className="about-us-logo-signal">
           {/* Replace the path with your logo file */}
           <img src="Signal.png" alt="Logo" />
@@ -32,7 +32,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="about-us-content-cepoonjar">
+      <div className="about-us-content">
         <div className="about-us-logo-cepoonjar">
           {/* Replace the path with your logo file */}
           <img src="Poonjar.png" alt="Logo" />

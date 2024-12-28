@@ -1,7 +1,8 @@
 #registration {
     position: relative;
     padding: 100px 0;
-    background: #001D3E;
+    background: url('circuit.png');
+    background-size: auto 100%;
     color:rgb(6, 212, 130);   
     min-height: 100vh;
     overflow-x: hidden;
@@ -27,7 +28,7 @@
     border-radius: 2rem;
     width: 450px;
     max-width: 50rem;
-    background: #012753;
+    background: linear-gradient(145deg, #0016306a,#17467b, #012753b4);
     height: 35  0px;
     display: flex;
     flex-direction: column;

@@ -1,8 +1,8 @@
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-*{
+* {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,19 +11,20 @@ body{
   position: relative;
   color: white;
   padding: 20px;
-  /* background-color: black;  */
+  /* background-color: black; */
   min-height: 100vh; /* Ensure it takes the full height */
 }
 
 /* About Us content container */
-.about-us-content-signal {
+.about-us-content {
   display: flex;
   flex-direction: row; /* Align logo and text horizontally */
   justify-content: space-between; /* Add space between logo and text */
   align-items: center; /* Vertically center the content */
   max-width: 2000px; /* Limit the width to be responsive */
-  padding: 0px;
-  margin: 15px ;
+  padding: 0px 5px;
+  margin: 25px 15px;
+  border: 5px solid #38a522;
 }
 
 /* About Us Logo */
@@ -65,12 +66,14 @@ body{
 /* about sps kerala*/
 .about-us-content-spskerala {
   display: flex;
-  flex-direction: row-reverse; /* Align logo and text horizontally */
+  /* Align logo and text horizontally */
   justify-content: space-between; /* Add space between logo and text */
+  flex-direction: row-reverse;
   align-items: center; /* Vertically center the content */
   max-width: 2000px; /* Limit the width to be responsive */
-  padding: 0px;
-  margin: 15px ;
+  padding: 0px 5px;
+  margin: 25px 15px;
+  border: 5px solid #38a522;
 }
 
 /* About Us Logo */
@@ -110,15 +113,6 @@ body{
 }
 
 /*about cepoonjar*/
-.about-us-content-cepoonjar {
-  display: flex;
-  flex-direction: row; /* Align logo and text horizontally */
-  justify-content: space-between; /* Add space between logo and text */
-  align-items: center; /* Vertically center the content */
-  padding: 0px;
-  max-width: 2000px; /* Limit the width to be responsive */
-  margin: 15px ;
-}
 
 /* About Us Logo */
 .about-us-logo-cepoonjar {
@@ -158,7 +152,7 @@ body{
 
 /* Green wave background replaced by an image */
 .green-wave-background {
-  background: url('src/assets/wave.png') no-repeat center bottom;
+  background: url("src/assets/wave.png") no-repeat center bottom;
   background-size: cover;
   height: 180px; /* Adjust the height based on your image's design */
   width: 100%;
@@ -225,7 +219,7 @@ body{
 }
 
 .green-wave-background2 {
-  background: url('src/assets/wave.png') no-repeat center bottom;
+  background: url("src/assets/wave.png") no-repeat center bottom;
   background-size: cover;
   height: 110px; /* Adjust the height based on your image's design */
   width: 100%;
@@ -234,9 +228,8 @@ body{
 }
 /* Responsive Design Media Queries */
 @media (max-width: 768px) {
-  .about-us-content-signal,
-  .about-us-content-spskerala,
-  .about-us-content-cepoonjar {
+  .about-us-content,
+  .about-us-content-spskerala {
     flex-direction: column; /* Stack logo and text vertically */
     padding: 15px;
     width: 100%;
@@ -289,11 +282,11 @@ body{
 }
 
 @media (max-width: 480px) {
-  .about-us-content-signal,
-  .about-us-content-spskerala,
-  .about-us-content-cepoonjar {
+  .about-us-content,
+  .about-us-content-spskerala {
     flex-direction: column; /* Stack logo and text vertically */
     padding: 5px;
+    border: none;
     width: 90%;
   }
 
@@ -336,6 +329,7 @@ body{
   .funded-by-text {
     font-size: 1.5rem; /* Smaller font size for smaller screens */
     top: 5px;
+    text-decoration: underline;
   }
 
   .logo-container img {

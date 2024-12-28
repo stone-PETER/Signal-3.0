@@ -4,7 +4,7 @@
     left: 0;
     width: 100dvw;
     height: 10dvh;
-    background: #001D3E;
+    background: rgb(30 27 75 / var(--tw-bg-opacity, 1));
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,7 +14,7 @@
 .navBar{
     width: 30%;
     height: 100%;
-    background: #001D3E;
+    background: rgb(30 27 75 / var(--tw-bg-opacity, 1));
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,7 +41,7 @@
     padding-right: 10px;
 }
 .nav-bar li{
-    color:rgb(6, 212, 130);    
+    color:rgb(6, 212, 71);    
     cursor: pointer;
     display: flex;
     align-items: center;

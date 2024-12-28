@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
         <div className="absolute z-10"></div>
 
-        <div className="relative z-20 container mx-auto px-6 lg:px-12 pt-24 pb-16">
+        <div className="relative z-20 container mx-auto px-6 lg:px-12 pt-24 pb-16 lg:pl-[20%]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <div className="flex items-center space-x-4 mb-4">
@@ -35,7 +35,7 @@ const Hero = () => {
                 </svg> */}
                 {/* <img className="h-[80px]" src="sps kc png.png"></img> */}
                 <div>
-                  <h2 className="md:text-xl md:text-left text-center font-mono text-cyan-300 tracking-widest uppercase text-base">
+                  <h2 className="md:text-xl md:text-left text-center font-mono text-cyan-300 tracking-widest uppercase text-base noto-serif">
                     SPS Kerala Chapter Presents
                   </h2>
                 </div>
@@ -56,7 +56,7 @@ const Hero = () => {
                 and collaboration.
               </p>
 
-              <div className="flex align-center md:align-left space-x-4 pt-6 ">
+              <div className="flex items-center justify-center md:justify-start space-x-4 pt-6 ">
                 <button className="group relative px-8 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-green-600 hover:from-cyan-600 hover:to-green-700 transition-all duration-300 flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
