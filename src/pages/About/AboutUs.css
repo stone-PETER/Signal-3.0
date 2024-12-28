@@ -293,7 +293,7 @@ body{
   .about-us-content-spskerala,
   .about-us-content-cepoonjar {
     flex-direction: column; /* Stack logo and text vertically */
-    padding: 10px;
+    padding: 5px;
     width: 100%;
   }
 
@@ -302,16 +302,18 @@ body{
   .about-us-logo-cepoonjar img {
     max-width: 100%;
     max-height: 250px; /* Adjust for smaller screens */
-    width: 60%; /* Logo occupies 60% of the width */
+    width: 100%; /* Logo occupies 60% of the width */
     margin: 0 auto;
+    height: 60%;
   }
 
   .about-us-text-signal,
   .about-us-text-spskerala,
   .about-us-text-cepoonjar {
-    width: 40%; /* Text occupies 40% of the width */
+    width: 100%; /* Text occupies 40% of the width */
     margin: 0 auto;
     text-align: center; /* Align text to the center */
+    height: 40%;
   }
 
   .about-us-text-signal h1,
