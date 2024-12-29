@@ -10,7 +10,8 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="navBar">
           <div className="logo">
-            <img className="h-[6dvh]" src="sps kc png.png" alt="Mace Logo" />
+            <img className="h-[6dvh] px-[5px]" src="sps kc png.png" alt="Mace Logo" />
+            <img className="h-[6dvh]" src="Poonjar.png" alt="Mace Logo" />
           </div>
           <FaBars
             className="bars"

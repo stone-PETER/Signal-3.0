@@ -35,8 +35,8 @@ const Hero = () => {
                 </svg> */}
                 {/* <img className="h-[80px]" src="sps kc png.png"></img> */}
                 <div>
-                  <h2 className="md:text-xl md:text-left text-center font-mono text-cyan-300 tracking-widest uppercase text-base noto-serif">
-                    SPS Kerala Chapter Presents
+                  <h2 className="md:text-xl text-center font-mono text-cyan-300 tracking-widest uppercase text-base">
+                   <i>IEEE SPS Kerala Chapter Presents</i>
                   </h2>
                 </div>
               </div>
@@ -57,7 +57,7 @@ const Hero = () => {
               </p>
 
               <div className="flex items-center justify-center md:justify-start space-x-4 pt-6 ">
-                <button className="group relative px-8 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-green-600 hover:from-cyan-600 hover:to-green-700 transition-all duration-300 flex items-center">
+                <a href="/coming-soon" target="_blank"><button className="group relative px-8 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-green-600 hover:from-cyan-600 hover:to-green-700 transition-all duration-300 flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -73,7 +73,7 @@ const Hero = () => {
                   </svg>
                   Register Now
                   <div className="absolute inset-0 rounded-full border-2 border-cyan-300/50 animate-ping group-hover:opacity-0 transition-opacity"></div>
-                </button>
+                </button></a>
 
                 {/* <button className="border border-white/20 hover:bg-white/10 px-8 py-3 rounded-full transition-all flex items-center">
                   <svg
