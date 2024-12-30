@@ -4,16 +4,16 @@ import wave from "../../assets/green wave 3.jpg";
 import "./Workshops.css"; 
 const workshopsData = [
   {
-    name: "Workshop 1",
-    description: "Description for Workshop 1",
+    name: "Coming Soon...",
+    description: "We’re unveiling something extraordinary soon.. Stay with us!",
   },
   {
-    name: "Workshop 2",
-    description: "Description for Workshop 2",
+    name: "Coming Soon...",
+    description: "We’re unveiling something extraordinary soon.. Stay with us!",
   },
   {
-    name: "Workshop 3",
-    description: "Description for Workshop 3",
+    name: "Coming Soon...",
+    description: "We’re unveiling something extraordinary soon.. Stay with us!",
   },
   // Add more workshops as needed
 ];
