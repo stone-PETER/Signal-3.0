@@ -15,12 +15,12 @@ export const Registration=(props)=>
             </div>
             <div className="card">
                 <h3>IEEE Members</h3>
-                <h2>₹900</h2>
+                <h2>₹950</h2>
                 <a href="https://www.yepdesk.com/signal-3-0" target="_blank">Register now</a>
             </div>
             <div className="card">
                 <h3>Non-IEEE Members</h3>
-                <h2>₹1000</h2>
+                <h2>₹1050</h2>
                 <a href="https://www.yepdesk.com/signal-3-0" target="_blank" >Register now</a>
             </div>
         </div>
