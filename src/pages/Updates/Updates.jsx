@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "./Updates.css";
+import wave from "../../assets/green wave 3.jpg";
 
 // Import Swiper modules
 import { Navigation } from "swiper/modules";
@@ -20,7 +21,7 @@ const Updates = () => {
     <div className="updates-page">
       {/* Green Wave Image */}
       <div className="green-wave-container">
-        <img src="src/assets/green wave 3.jpg" alt="Wave" className="green-wave" />
+        <img src={wave} alt="Wave" className="green-wave" />
         <h2 className="workshop-heading">Updates</h2>
       </div>
 
@@ -48,7 +49,7 @@ const Updates = () => {
 
       {/* Green Wave Image Bottom */}
       <img
-        src="src/assets/green wave 3.jpg"
+        src={wave}
         alt="Green Wave"
         className="green-wave-btm"
       />
