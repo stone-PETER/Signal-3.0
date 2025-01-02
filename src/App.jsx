@@ -8,7 +8,7 @@ import { Registration } from "./pages/Registration/registration";
 import Speaker from "./pages/Speakers/Speakers";
 import Workshops from "./pages/Workshops/Workshops";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
+import Updates from "./pages/Updates/Updates"
 import Footer from "./pages/Footer/Footer"; // Uncomment if needed
 import ComingSoon from "./pages/ComingSoon/ComingSoon";
 
@@ -26,6 +26,7 @@ const App = () => {
       <AboutUs />
       <Registration />
       {/* <Speaker />*/}
+      {/* <Updates/>*/}
       <Workshops /> 
       <Contact />
       <Footer />
