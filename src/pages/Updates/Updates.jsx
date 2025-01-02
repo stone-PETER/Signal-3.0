@@ -31,9 +31,15 @@ const Updates = () => {
           navigation={true}
           modules={[Navigation]}
           className="mySwiper"
-          slidesPerView={3}
+          slidesPerView={1} // Default for larger screens
           spaceBetween={20}
           loop={true}
+          breakpoints={{
+            768: {
+              slidesPerView: 3, // Show 1 image for screens 768px and smaller
+              spaceBetween: 10, // Reduce space between images for smaller screens
+            },
+          }}
         >
           {images.map((image, index) => (
             <SwiperSlide key={index}>
