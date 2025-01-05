@@ -24,6 +24,7 @@ const Workshops = () => {
       <div className="wave-container">
         <img src={wave} alt="Wave" className="wave-image" />
         <h2 className="workshop-heading">Workshops</h2>
+         <span className="loader"></span>
       </div>
       <div className="workshops">
         {workshopsData.map((workshop, index) => (
