@@ -4,19 +4,16 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "./Updates.css";
 import wave from "../../assets/green wave 3.jpg";
+import UpdateImage1 from "../../assets/AI imageGen.jpg";
 
 // Import Swiper modules
 import { Navigation } from "swiper/modules";
 
 const Updates = () => {
   const images = [
-    "https://via.placeholder.com/150",
-    "https://picsum.photos/seed/picsum/200/300",
-    "https://picsum.photos/200/300?grayscale",
-    "https://picsum.photos/200/300/?blur",
-    "https://picsum.photos/200/300.jpg",
+    UpdateImage1,
+    
   ];
-
   return (
     <div className="updates-page">
       {/* Green Wave Image */}
