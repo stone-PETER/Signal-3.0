@@ -5,8 +5,6 @@ import "swiper/css/navigation";
 import "./Updates.css";
 import wave from "../../assets/green wave 3.jpg";
 import UpdateImage1 from "../../assets/AI imageGen.jpg";
-
-// Import Swiper modules
 import { Navigation } from "swiper/modules";
 
 const Updates = () => {
@@ -16,10 +14,11 @@ const Updates = () => {
   ];
   return (
     <div className="updates-page">
-      {/* Green Wave Image */}
+      
       <div className="green-wave-container">
         <img src={wave} alt="Wave" className="green-wave" />
         <h2 className="workshop-heading">Updates</h2>
+        <span className="loaderUpdate"></span>
       </div>
 
       {/* Swiper Carousel */}
@@ -50,7 +49,7 @@ const Updates = () => {
         </Swiper>
       </div>
 
-      {/* Green Wave Image Bottom */}
+      
       <img
         src={wave}
         alt="Green Wave"
