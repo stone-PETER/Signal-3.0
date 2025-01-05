@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Updates from "./pages/Updates/Updates"
 import Footer from "./pages/Footer/Footer"; // Uncomment if needed
 import ComingSoon from "./pages/ComingSoon/ComingSoon";
+import {Countdown} from "./pages/Countdown/Countdown";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
               <>
       <Navbar />
       <Hero />
+      <Countdown/>
       <AboutUs />
       <Registration />
       {/* <Speaker />*/}
