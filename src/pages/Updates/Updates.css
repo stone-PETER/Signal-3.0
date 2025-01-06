@@ -24,7 +24,7 @@
 .green-wave-btm {
   transform: scaleY(-1);
   width: 100%;
-  height: 230px;
+  height: 100px;
   margin-bottom: -5px; /* Slight overlap for a seamless look */
 }
 
