@@ -4,12 +4,19 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "./Updates.css";
 import wave from "../../assets/green wave 3.jpg";
-import UpdateImage1 from "../../assets/AI imageGen.jpg";
 import { Navigation } from "swiper/modules";
+import UpadateImage3 from "../../assets/UpdateImage3.jpg";
+import UpdateImage2 from "../../assets/UpdateImage2.jpg";
+import UpadateImage1 from "../../assets/UpdateImage1.jpg";
+
+
 
 const Updates = () => {
   const images = [
-    UpdateImage1,
+   UpadateImage3,
+    UpdateImage2,
+    UpadateImage1,
+   
     
   ];
   return (
