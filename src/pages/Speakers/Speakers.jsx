@@ -1,21 +1,25 @@
 import React from 'react';
 import './Speakers.css';
 import wave from '../../assets/green wave 3.jpg';
+import farhan from "../../assets/farhan.jpeg";
+import abhinav from "../../assets/abhinav.jpeg";
+import sunil from "../../assets/sunil.jpg";
 
 const Speakers = () => {
     const speakers = [
-        { id: 1, name: 'John Doe', job: 'Keynote Speaker', image: 'https://via.placeholder.com/150' },
-        { id: 2, name: 'Jane Smith', job: 'Motivational Speaker', image: 'https://via.placeholder.com/150' },
-        { id: 3, name: 'Sam Wilson', job: 'Tech Expert', image: 'https://via.placeholder.com/150' },
-        { id: 4, name: 'Lisa Brown', job: 'Leadership Coach', image: 'https://via.placeholder.com/150' },
+        { id: 1, name: 'Farhan Bin Fazil', job: 'CEO At Offenso Hackers Academy', image: farhan },
+        { id: 2, name: 'Abhinav Rajeev', job: 'Director,Bumblebee Instruments Pvt. Ltd', image: abhinav },
+        { id: 3, name: 'Dr Sunil T T', job: 'Director, ICFOSS, Trivandrum', image: sunil },
+        // { id: 4, name: 'Lisa Brown', job: 'Leadership Coach', image: 'https://via.placeholder.com/150' },
     ];
 
     return (
         <div className="speakers-section">
-            <div>
-                <img src={wave} alt="Decorative wave" className="wave-image" />
-            </div>
-            <h2 className="speakers-heading">Speakers</h2>
+            <div className="green-wave-container">
+                    <img src={wave} alt="Wave" className="green-wave" />
+                    <h2 className="workshop-heading">Speakers</h2>
+                    <span className="loaderUpdate"></span>
+                  </div>
             <div className="speakers-container">
                 {speakers.map((speaker) => (
                     <div key={speaker.id} className="speakers-card">
@@ -27,6 +31,11 @@ const Speakers = () => {
                     </div>
                 ))}
             </div>
+             <img
+                    src={wave}
+                    alt="Green Wave"
+                    className="green-wave-btm"
+                  />
         </div>
     );
 };
