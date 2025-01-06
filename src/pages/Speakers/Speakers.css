@@ -35,16 +35,13 @@
 /* Individual speaker card styles */
 .speakers-card {
     text-align: center;
-    background-color: #111;
+    background-color: #000;
     border-radius: 8px;
     overflow: hidden;
     width: 350px;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.speakers-card:hover {
-    background-color: #222;
-}
 
 /* Image container for speaker cards */
 .speaker-image-container {
@@ -57,11 +54,11 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.5s ease;
+    transition: transform 1.5s ease;
 }
 
 .speaker-image:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* Text styles for speaker names and job titles */
