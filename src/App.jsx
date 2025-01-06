@@ -27,7 +27,7 @@ const App = () => {
       <Countdown/>
       <AboutUs />
       <Registration />
-      {/* <Speaker />*/}
+      <Speaker />
        <Updates/>
       <Workshops /> 
       <Contact />
