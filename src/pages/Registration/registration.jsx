@@ -1,5 +1,7 @@
 // import React from "react";
 import "./register.css";
+import {Typography} from "@material-tailwind/react";
+
 export const Registration = () => {
   return (
     <div id="registration" className="bg-indigo-950">
@@ -29,6 +31,9 @@ export const Registration = () => {
           </a>
         </div>
       </div>
+      <Typography color="blue-gray" className="text-center font-normal">
+        registrations are not refundable
+      </Typography>
       <div className="col-md-10 col-md-offset-1 section-title text-center">
         <h2 className="title section-heading">
           Early Bird Registrations Closed
