@@ -3,6 +3,16 @@ import React, { useEffect } from "react";
 
 export const Countdown = () => {
   useEffect(() => {
+    function mobileview()
+    {
+        document.querySelector(".hour h3").textContent="Hr";
+        document.querySelector(".minute h3").textContent="Min";
+        document.querySelector(".second h3").textContent="Sec"
+    }
+    if (window.matchMedia("(max-width: 568px)").matches)
+      {
+       mobileview();
+      };
     // Set the target date
     const targetDate = new Date("January 24, 2025 00:00:00").getTime();
 
@@ -39,19 +49,19 @@ export const Countdown = () => {
     <div className="count">
       <h2>Live in</h2>
       <div className="timer">
-        <div className="box">
+        <div className="box day">
           <h3>Days</h3>
           <span className="days"></span>
         </div>
-        <div className="box">
+        <div className="box hour" >
           <h3>Hours</h3>
           <span className="hours"></span>
         </div>
-        <div className="box">
+        <div className="box minute">
           <h3>Minutes</h3>
           <span className="minutes"></span>
         </div>
-        <div className="box">
+        <div className="box second">
           <h3>Seconds</h3>
           <span className="seconds"></span>
         </div>
