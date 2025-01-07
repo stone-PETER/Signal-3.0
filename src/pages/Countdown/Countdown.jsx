@@ -56,7 +56,7 @@ export const Countdown = () => {
           <span className="seconds"></span>
         </div>
       </div>
-      <h2 className="date">24-26 January 2025</h2>
+      <h2 className="date">24, 25, 26 January 2025</h2>
     </div>
   );
 };
