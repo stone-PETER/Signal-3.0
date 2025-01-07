@@ -8,7 +8,7 @@ import sunil from "../../assets/sunil.jpg";
 const Speakers = () => {
     const speakers = [
         { id: 1, name: 'Farhan Bin Fazil', job: 'CEO At Offenso Hackers Academy', image: farhan },
-        { id: 2, name: 'Abhinav Rajeev', job: 'Director,Bumblebee Instruments Pvt. Ltd', image: abhinav },
+        { id: 2, name: 'Abhinav Rajeev', job: 'Director, Bumblebee Instruments Pvt. Ltd', image: abhinav },
         { id: 3, name: 'Dr Sunil T T', job: 'Director, ICFOSS, Trivandrum', image: sunil },
         // { id: 4, name: 'Lisa Brown', job: 'Leadership Coach', image: 'https://via.placeholder.com/150' },
     ];
