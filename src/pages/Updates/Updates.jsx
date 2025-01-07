@@ -5,19 +5,19 @@ import "swiper/css/navigation";
 import "./Updates.css";
 import wave from "../../assets/green wave 3.jpg";
 import { Navigation } from "swiper/modules";
-import UpadateImage3 from "../../assets/UpdateImage3.jpg";
+import UpdateImage3 from "../../assets/UpdateImage3.jpg";
 import UpdateImage2 from "../../assets/UpdateImage2.jpg";
-import UpadateImage1 from "../../assets/UpdateImage1.jpg";
+import UpdateImage1 from "../../assets/UpdateImage1.jpg";
+import UpdateImage4 from "../../assets/UpdateImage4.jpg"
 
 
 
 const Updates = () => {
   const images = [
-   UpadateImage3,
+    UpdateImage4,
+    UpdateImage3,
     UpdateImage2,
-    UpadateImage1,
-   
-    
+    UpdateImage1,
   ];
   return (
     <div className="updates-page">

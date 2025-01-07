@@ -18,6 +18,14 @@ const workshopsData = [
         </>
       ),
     },
+    {
+      name: "AI & Ethical Hacking",
+      description: (
+        <>
+          Join us on {" "}<strong>January 25 </strong>for an electrifying workshop on {" "}<strong>AI and Ethical Hacking</strong>, led by {" "}<strong>Farhan Bin Fazil</strong>, Co-founder & CEO of Offenso Hackers Academy. Dive into the fascinating intersection of artificial intelligence and cybersecurity with live demos, expert insights, and hands-on learning. Perfect for tech enthusiasts eager to explore cutting-edge innovation and the art of ethical hacking to secure the future!
+        </>
+      ),
+    },
   
   
   // Add more workshops as needed
