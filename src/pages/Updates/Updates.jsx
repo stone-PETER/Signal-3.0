@@ -8,12 +8,14 @@ import { Navigation } from "swiper/modules";
 import UpdateImage3 from "../../assets/UpdateImage3.jpg";
 import UpdateImage2 from "../../assets/UpdateImage2.jpg";
 import UpdateImage1 from "../../assets/UpdateImage1.jpg";
-import UpdateImage4 from "../../assets/UpdateImage4.jpg"
+import UpdateImage4 from "../../assets/UpdateImage4.jpg";
+import UpdateImage5 from "../../assets/UpdateImage5.jpg";
 
 
 
 const Updates = () => {
   const images = [
+    UpdateImage5,
     UpdateImage4,
     UpdateImage3,
     UpdateImage2,
