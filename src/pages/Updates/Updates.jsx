@@ -10,11 +10,12 @@ import UpdateImage2 from "../../assets/UpdateImage2.jpg";
 import UpdateImage1 from "../../assets/UpdateImage1.jpg";
 import UpdateImage4 from "../../assets/UpdateImage4.jpg";
 import UpdateImage5 from "../../assets/UpdateImage5.jpg";
-
+import UpdateImage6 from "../../assets/UpdateImage6.jpg";
 
 
 const Updates = () => {
   const images = [
+    UpdateImage6,
     UpdateImage5,
     UpdateImage4,
     UpdateImage3,
