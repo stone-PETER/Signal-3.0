@@ -26,7 +26,14 @@ const workshopsData = [
         </>
       ),
     },
-  
+    {
+      name: "Exploring Software Defined Radio",
+      description: (
+       <>
+       Join us for Signal 3.0, our third workshop, {" "}<strong>Exploring Software Defined Radio (SDR)</strong>. This session dives into SDR fundamentals, modern communication applications, and future advancements. Led by {" "}<strong>Dr. Sunil T T</strong>, Director of ICFOSS and a visionary in communication systems, the workshop promises valuable insights and hands-on experience.
+       </>
+      ),
+    },
   
   // Add more workshops as needed
 ];
