@@ -57,7 +57,7 @@ const Hero = () => {
               </p>
 
               <div className="flex items-center justify-center md:justify-start space-x-4 pt-6 ">
-                <a href="/coming-soon" target="_blank"><button className="group relative px-8 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-green-600 hover:from-cyan-600 hover:to-green-700 transition-all duration-300 flex items-center">
+                <a href="https://www.yepdesk.com/signal-3-0" target="_blank"><button className="group relative px-8 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-green-600 hover:from-cyan-600 hover:to-green-700 transition-all duration-300 flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
