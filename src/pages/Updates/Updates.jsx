@@ -13,10 +13,12 @@ import UpdateImage5 from "../../assets/UpdateImage5.jpg";
 import UpdateImage6 from "../../assets/UpdateImage6.jpg";
 import UpdateImage7 from "../../assets/UpdateImage7.jpg"
 import UpdateImage8 from "../../assets/UpdateImage8.jpg"
+import UpdateImage9 from "../../assets/UpdateImage9.jpg"
 
 
 const Updates = () => {
   const images = [
+    UpdateImage9,
     UpdateImage8,
     UpdateImage7,
     UpdateImage6,
@@ -41,13 +43,13 @@ const Updates = () => {
           navigation={true}
           modules={[Navigation]}
           className="mySwiper"
-          slidesPerView={1} // Default for larger screens
+          slidesPerView={1} 
           spaceBetween={20}
           loop={true}
           breakpoints={{
             768: {
-              slidesPerView: 3, // Show 1 image for screens 768px and smaller
-              spaceBetween: 10, // Reduce space between images for smaller screens
+              slidesPerView: 3, 
+              spaceBetween: 10, 
             },
           }}
         >
