@@ -34,7 +34,14 @@ const workshopsData = [
        </>
       ),
     },
-  
+  {
+      name: "Campus to Corporate Training",
+      description: (
+       <>
+       Join us for the {" "}<strong>Campus to Corporate Training</strong> session with {" "}<strong>Vishnu Prasad M V</strong>, Senior HR Manager at Srishti Innovative. Part of SIGNAL 3.0, this session will help you transition smoothly from academics to the professional world, providing valuable tips and insights.
+       </>
+      ),
+    },
   // Add more workshops as needed
 ];
 
