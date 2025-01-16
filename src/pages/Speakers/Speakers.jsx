@@ -4,13 +4,14 @@ import wave from '../../assets/green wave 3.jpg';
 import farhan from "../../assets/farhan.jpeg";
 import abhinav from "../../assets/abhinav.jpeg";
 import sunil from "../../assets/sunil.jpg";
+import vishnu from "../../assets/vishnu.jpeg"
 
 const Speakers = () => {
     const speakers = [
         { id: 1, name: 'Farhan Bin Fazil', job: 'CEO At Offenso Hackers Academy', image: farhan },
         { id: 2, name: 'Abhinav Rajeev', job: 'Director, Bumblebee Instruments Pvt. Ltd', image: abhinav },
         { id: 3, name: 'Dr Sunil T T', job: 'Director, ICFOSS, Trivandrum', image: sunil },
-        // { id: 4, name: 'Lisa Brown', job: 'Leadership Coach', image: 'https://via.placeholder.com/150' },
+        { id: 4, name: 'Vishnu Prasad M V', job: 'CSR Manager and Senior HR Manager, Srishti Innovative', image: vishnu },
     ];
 
     return (
