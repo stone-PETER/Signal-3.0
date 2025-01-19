@@ -16,10 +16,13 @@ import UpdateImage8 from "../../assets/UpdateImage8.jpg"
 import UpdateImage9 from "../../assets/UpdateImage9.jpg"
 import UpdateImage10 from "../../assets/UpdateImage10.jpg"
 import UpdateImage11 from "../../assets/UpdateImage11.jpg"
-
+import UpdateImage12 from "../../assets/UpdateImage12.jpg"
+import UpdateImage13 from "../../assets/UpdateImage13.jpg"
 
 const Updates = () => {
   const images = [
+    UpdateImage13,
+    UpdateImage12,
     UpdateImage11,
     UpdateImage10,
     UpdateImage9,
