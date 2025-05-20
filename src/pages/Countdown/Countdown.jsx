@@ -14,7 +14,7 @@ export const Countdown = () => {
        mobileview();
       };
     // Set the target date
-    const targetDate = new Date("January 24, 2025 00:00:00").getTime();
+    const targetDate = new Date("May 21, 2025 00:00:00").getTime();
 
     // Update the countdown every second
     const timer = setInterval(() => {
